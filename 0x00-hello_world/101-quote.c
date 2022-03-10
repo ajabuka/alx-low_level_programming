@@ -7,6 +7,6 @@ ssize_t pwrite(int fildes, const void *buf, size_t nbyte, off_t offset);
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 60);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 60, stderr);
 	return (1);
 }
