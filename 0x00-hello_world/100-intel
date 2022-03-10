@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=4-main.c ; gcc -masm=intel $CFILE -o 4-main.s
+export CFILE=4-main.c ; gcc -S $CFILE -masm=intel -o 4-main.s
