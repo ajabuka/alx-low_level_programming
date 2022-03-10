@@ -5,8 +5,8 @@ ssize_t pwrite(int fildes, const void *buf, size_t nbyte, off_t offset);
  *
  * Return: Always 1 (Success)
  */
-char main(void)
+int main(void)
 {
-	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	write(1,"and that piece of art is useful\" - Dora Korpar, 2015-10-19",60);
 	return (1);
 }
