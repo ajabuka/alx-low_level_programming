@@ -1,4 +1,5 @@
 #include <unistd.h>
+ssize_t pwrite(int fildes, const void *buf, size_t nbyte, off_t offset);
 /**
  * main - Entry point
  *
