@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=4-main.c ; gcc -S -mllvm --x86-asm-syntax=intel $CFILE -o 4-main.s
+export CFILE=4-main.c ; gcc -S -fgnu-tm $CFILE -o 4-main.s
