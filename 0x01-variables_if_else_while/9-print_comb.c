@@ -11,7 +11,7 @@ int main(void)
 
 	for (ch = 0; ch < 10;)
 	{
-		putchar(ch +b'0');
+		putchar(ch + '0');
 		{
 			putchar(',');
 			putchar(' ');
