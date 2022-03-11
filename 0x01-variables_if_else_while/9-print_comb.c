@@ -12,9 +12,9 @@ int main(void)
 	for (ch = '0'; ch <= '9'; ch++)
 	{
 		putchar(ch);
-		putchar(','; ' ');
-		
+		putchar(',');
+		putchar(' ');
 	}
-	putchar('\n');
+	putchar('\b');
 	return (0);
 }
