@@ -15,6 +15,6 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	putchar('\b');
+	putchar(',');
 	return (0);
 }
