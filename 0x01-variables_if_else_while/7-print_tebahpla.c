@@ -8,10 +8,12 @@
 int main(void)
 {
 	int ch = 'a';
+	int rv;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(strrev(ch));
+		rv = strrev(ch);
+		putchar(rv);
 	}
 	putchar('\n');
 	return (0);
