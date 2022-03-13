@@ -22,10 +22,11 @@ int main(void)
 				{
 					break;
 				}
-
-				if (ch < '8')
-				putchar(',');
-				putchar(' ');
+				{
+					if (ch < '8')
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
