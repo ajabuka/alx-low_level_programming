@@ -18,12 +18,12 @@ int main(void)
 			{
 				putchar(ch);
 				putchar(dh);
-				if ( ch == '9' && dh == '9')
+				if (ch == '9' && dh == '9')
 				{
 					break;
 				}
 
-				if (ch < '9')
+				if (ch < '8')
 				putchar(',');
 				putchar(' ');
 			}
