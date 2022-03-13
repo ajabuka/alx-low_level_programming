@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-int c = '0';
-int d = '0';
-int e = '0';
-int f = '0';
+int c = 48;
+int d = 48;
+int e = 48;
+int f = 48;
 int g;
 int h;
 
-for (c = '0'; c <= '9'; c++)
+for (c = 48; c <= 58; c++)
 {
-	for (d = '0'; d <= '9'; d++)
+	for (d = 48; d <= 58; d++)
 	{
-		for (e = '0'; e <= '9'; e++)
+		for (e = 48; e <= 58; e++)
 		{
-			for (f = '0'; f <= '9'; f++)
+			for (f = 48; f <= 58; f++)
 			{
 				g = (c * 10) + d;
 				h = (e * 10) + f;
@@ -31,11 +31,9 @@ for (c = '0'; c <= '9'; c++)
 					putchar(' ');
 					putchar(e);
 					putchar(f);
-					if ((c == '9' && d == '9') && (e == '9' && f == '9'))
+					if ((c == 57 && d == 56) && (e == 57 && f == 57))
 						break;
-					if (e < '8')
 					putchar(',');
-					if (e < '8')
 					putchar(' ');
 				}
 			}
