@@ -7,28 +7,28 @@
  */
 int main(void)
 {
-	int ch = '0';
-	int dh = '0';
-	int eh = '0';
+	int c = '0';
+	int d = '0';
+	int e = '0';
 
-	for (ch = '0'; ch <= '9'; ch++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (dh = '0'; dh <= '9'; dh++)
+		for (d = '0'; d <= '9'; d++)
 		{
-			for (eh = '0'; eh <= '9'; eh++)
+			for (e = '0'; e <= '9'; e++)
 			{
-				if ((ch != dh && ch < dh) && (ch != eh && ch < eh) && (dh != eh && dh < eh))
+				if ((c != d && c < d) && (c != e && c < e) && (d != e && d < e))
 				{
-					putchar(ch);
-					putchar(dh);
-					putchar(eh);
-					if ((ch == '9' && dh == '9') && eh == '9')
+					putchar(c);
+					putchar(d);
+					putchar(e);
+					if ((c == '9' && d == '9') && e == '9')
 					{
 						break;
 					}
-					if (ch < '8')
+					if (c < '7')
 					putchar(',');
-					if (ch < '8')
+					if (c < '7')
 					putchar(' ');
 				}
 			}
