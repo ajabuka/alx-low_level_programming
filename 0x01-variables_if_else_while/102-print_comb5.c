@@ -22,11 +22,11 @@ int main(void)
 				{
 
 					if ((c && d) != (e && f))
-					putchar(c);
-					putchar(d);
-					putchar(' ');
 					putchar(e);
 					putchar(f);
+					putchar(' ');
+					putchar(c);
+					putchar(d);
 					if ((c == '9' && d == '9') && (e == '9' && f == '9'))
 					{
 						break;
