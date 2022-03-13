@@ -14,11 +14,10 @@ int main(void)
 	{
 		for (dh = '0'; dh <= '9'; dh++)
 		{
-			if (ch != dh && ch < dh)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+		
+			putchar(',');
+			putchar(' ');
+		
 		}
 	}
 	putchar('\n');
