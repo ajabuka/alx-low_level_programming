@@ -24,8 +24,8 @@ int main(void)
 				}
 				{
 					if (ch < '8')
-					if (dh < '8')
 					putchar(',');
+					if (ch < '8')
 					putchar(' ');
 				}
 			}
