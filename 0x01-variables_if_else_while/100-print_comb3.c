@@ -7,15 +7,19 @@
  */
 int main(void)
 {
-	int ch = '0';
+	int ch = dh = '0';
 
-	for (ch = '0'; ch < '9'; ch++)
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		putchar((ch / 1) + '0');
-		putchar((ch % 10) + '0');
-		putchar(',');
-		putchar(' ');
+		for (dh = '0'; dh <= '9'; dh++)
+		{
+			if (ch != dh && ch < dh)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
-	putchar('\0');
+	putchar('\n');
 	return (0);
 }
