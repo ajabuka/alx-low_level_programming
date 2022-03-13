@@ -14,13 +14,13 @@ int f = 48;
 int g;
 int h;
 
-for (c = 48; c <= 58; c++)
+for (c = 48; c < 58; c++)
 {
-	for (d = 48; d <= 58; d++)
+	for (d = 48; d < 58; d++)
 	{
-		for (e = 48; e <= 58; e++)
+		for (e = 48; e < 58; e++)
 		{
-			for (f = 48; f <= 58; f++)
+			for (f = 48; f < 58; f++)
 			{
 				g = (c * 10) + d;
 				h = (e * 10) + f;
