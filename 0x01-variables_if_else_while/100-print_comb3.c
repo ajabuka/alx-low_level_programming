@@ -22,7 +22,7 @@ int main(void)
 				{
 					break;
 				}
-				while (dh < '9')
+				while (ch < '9')
 				putchar(',');
 				putchar(' ');
 			}
