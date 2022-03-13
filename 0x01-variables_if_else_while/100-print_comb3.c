@@ -14,9 +14,18 @@ int main(void)
 	{
 		for (dh = '0'; dh <= '9'; dh++)
 		{
+			if (ch != dh && ch < dh)
+			{
+				putchar(ch);
+				putchar(dh);
+				if ( ch == '9' && dh == '9')
+				{
+					break;
+				}
 		
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
+			}
 		
 		}
 	}
