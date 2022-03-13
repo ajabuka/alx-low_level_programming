@@ -9,9 +9,10 @@ int main(void)
 {
 	int ch = 0;
 
-	for (ch = 0; ch < 9;)
+	while (ch < 10)
 	{
 		putchar(ch + '0');
+		if (ch < 9)
 		{
 			putchar(',');
 			putchar(' ');
