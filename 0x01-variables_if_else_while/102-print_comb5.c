@@ -33,9 +33,9 @@ for (c = '0'; c <= '9'; c++)
 					putchar(f);
 					if ((c == '9' && d == '9') && (e == '9' && f == '9'))
 						break;
-					if (c == '9')
+					if (e < '8')
 					putchar(',');
-					if (c == '9')
+					if (e < '8')
 					putchar(' ');
 				}
 			}
@@ -45,3 +45,4 @@ for (c = '0'; c <= '9'; c++)
 putchar('\n');
 return (0);
 }
+
