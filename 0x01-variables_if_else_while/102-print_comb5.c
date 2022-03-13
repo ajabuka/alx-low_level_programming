@@ -29,12 +29,11 @@ int main(void)
 						putchar(e);
 						putchar(f);
 						if ((c == '9' && d == '9') && (e == '9' && f == '9'))
-						{
-							break;
-						}
-						if (c < '7')
+						break;
+						
+						if (c < '9')
 						putchar(',');
-						if (c < '7')
+						if (c < '9')
 						putchar(' ');
 					}
 				}
