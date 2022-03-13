@@ -22,11 +22,10 @@ int main(void)
 				{
 					break;
 				}
-				while (ch < '9')
+				if (ch = dh < '9')
 				putchar(',');
 				putchar(' ');
 			}
-		
 		}
 	}
 	putchar('\n');
