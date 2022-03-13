@@ -21,16 +21,15 @@ int main(void)
 				{
 					putchar(ch);
 					putchar(dh);
+					putchar(eh);
 					if ((ch == '9' && dh == '9') && eh == '9')
 					{
 						break;
 					}
-					{
-						if (ch < '8')
-						putchar(',');
-						if (ch < '8')
-						putchar(' ');
-					}
+					if (ch < '8')
+					putchar(',');
+					if (ch < '8')
+					putchar(' ');
 				}
 			}
 		}
