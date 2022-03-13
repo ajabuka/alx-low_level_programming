@@ -21,7 +21,7 @@ int main(void)
 				for (f = '0'; f <= '9'; f++)
 				{
 
-					if ((c != d && c < d) && (e != f && e < f))
+					if ((c && d) != (e && f))
 					{
 						putchar(c);
 						putchar(d);
