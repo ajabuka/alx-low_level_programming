@@ -22,6 +22,7 @@ int main(void)
 				{
 
 					if ((c && d) != (e || f))
+					
 					putchar(c);
 					putchar(d);
 					putchar(' ');
