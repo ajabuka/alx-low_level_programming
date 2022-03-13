@@ -7,39 +7,41 @@
  */
 int main(void)
 {
-	int c = '0';
-	int d = '0';
-	int e = '0';
-	int f = '0';
+int c = '0';
+int d = '0';
+int e = '0';
+int f = '0';
+int g;
+int h;
 
-	for (c = '0'; c <= '9'; c++)
+for (c = '0'; c <= '9'; c++)
+{
+	for (d = '0'; d <= '9'; d++)
 	{
-		for (d = '0'; d <= '9'; d++)
+		for (e = '0'; e <= '9'; e++)
 		{
-			for (e = '0'; e <= '9'; e++)
+			for (f = '0'; f <= '9'; f++)
 			{
-				for (f = '0'; f <= '9'; f++)
+				g = (c * 10) + d;
+				h = (e * 10) + f;
+				if (g < h)
 				{
-
-					if ((c || d) || (e || f))
-					{
-						putchar(c);
-						putchar(d);
-						putchar(' ');
-						putchar(e);
-						putchar(f);
-						if ((c == '9' && d == '9') && (e == '9' && f == '9'))
+					putchar(c);
+					putchar(d);
+					putchar(' ');
+					putchar(e);
+					putchar(f);
+					if ((c == '9' && d == '9') && (e == '9' && f == '9'))
 						break;
-						
-						if (c < '9')
-						putchar(',');
-						if (c < '9')
-						putchar(' ');
-					}
+					if (c < '9')
+					putchar(',');
+					if (c < '9')
+					putchar(' ');
 				}
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+}
+putchar('\n');
+return (0);
 }
