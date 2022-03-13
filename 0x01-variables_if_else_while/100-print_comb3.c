@@ -23,7 +23,7 @@ int main(void)
 					break;
 				}
 
-				if (dh < '9')
+				if (ch < '9')
 				putchar(',');
 				putchar(' ');
 			}
