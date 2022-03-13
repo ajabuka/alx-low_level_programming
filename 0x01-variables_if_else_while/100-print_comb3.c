@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	int ch = dh = '0';
+	int ch = '0';
+	int dh = '0';
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
