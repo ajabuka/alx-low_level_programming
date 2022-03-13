@@ -21,22 +21,20 @@ int main(void)
 				for (f = '0'; f <= '9'; f++)
 				{
 
-					if ((c && d) != (e && f))
+					if ((c || d) != (e || f))
+					putchar(c);
+					putchar(d);
+					putchar(' ');
+					putchar(e);
+					putchar(f);
+					if ((c == '9' && d == '9') && (e == '9' && f == '9'))
 					{
-						putchar(c);
-						putchar(d);
-						putchar(' ');
-						putchar(e);
-						putchar(f);
-						if ((c == '9' && d == '9') && (e == '9' && f == '9'))
-						{
-							break;
-						}
-						if (c < '7')
-						putchar(',');
-						if (c < '7')
-						putchar(' ');
+						break;
 					}
+					if (c < '7')
+					putchar(',');
+					if (c < '7')
+					putchar(' ');
 				}
 			}
 		}
