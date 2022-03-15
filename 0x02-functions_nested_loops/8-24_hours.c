@@ -26,7 +26,7 @@ for (a = '0'; a <= '2'; a++)
 				_putchar(':');
 				_putchar(c);
 				_putchar(d);
-				_putchar('\n')
+				_putchar('\n');
 			}
 		}
 	}
