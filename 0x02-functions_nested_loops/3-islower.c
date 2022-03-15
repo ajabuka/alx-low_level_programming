@@ -11,7 +11,7 @@ int _islower(int c)
 {
 	int r;
 
-	if (r = _islower)
+	if _islower(r)
 	{
 		_putchar('1');
 	}
@@ -20,4 +20,5 @@ int _islower(int c)
 		_putchar('0');
 	}
 	_putchar('\n');
+	return (0);
 }
