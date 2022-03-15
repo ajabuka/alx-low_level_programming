@@ -34,6 +34,6 @@ for (a = '0'; a <= 2; a++)
 		}
 	}
 }
-_putchar('\n')
+_putchar('\n');
 }
 
