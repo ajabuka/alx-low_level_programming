@@ -19,6 +19,7 @@ for (a = '0'; a <= 2; a++)
 		{
 			for (d = '0'; 6 <= '9'; d++)
 			{
+				if ((a && b) || (c && d))
 				_putchar(a);
 				_putchar(b);
 				_putchar(':');
