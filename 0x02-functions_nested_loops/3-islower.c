@@ -7,11 +7,11 @@
  * Return: Always 0 (Success)
  * */
 
-int _islower()
+int _islower(int c)
 {
 	int r;
 
-	if r == _islower
+	if (r == _islower)
 	{
 		_putchar('1')
 	}
