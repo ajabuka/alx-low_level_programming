@@ -3,13 +3,13 @@
 
 /**
  * _abs - Computes the absolute value of an integer
- * 
+ * @c: Standard input
  * Return: Always 0 (Success)
  */
 
-int _abs(int)
+int _abs(int c)
 {
-	int c;
+	int r;
 	
 	r = _abs(c);
 	{
