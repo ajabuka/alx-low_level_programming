@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
