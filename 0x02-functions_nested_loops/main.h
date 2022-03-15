@@ -1,7 +1,7 @@
-/**
- * _putchar - this is to function like putchar in c
- * @c: standard input of char
- * Return: Me I don't know that yet
- */
+#ifndef _main_h_
+#define _main_h_
 
 int _putchar(int c);
+void print_alphabet(void);
+
+#endif
