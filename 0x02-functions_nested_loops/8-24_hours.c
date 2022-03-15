@@ -20,11 +20,11 @@ for (a = '0'; a <= 2; a++)
 			for (d = '0'; 6 <= '9'; d++)
 			{
 				if ((a && b) || (c && d))
-				_putchar(a);
-				_putchar(b);
+				_putchar(a + '0');
+				_putchar(b + '0');
 				_putchar(':');
-				_putchar(c);
-				_putchar(d);
+				_putchar(c + '0');
+				_putchar(d + '0');
 				if (a == '2' && b == '3' && c == '5' && d == '9')
 					break;
 			}
