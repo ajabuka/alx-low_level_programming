@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * c - standard char input
+ * c: standard char input
  * Printing with a local function
  * Return: Always 0 (Success)
  */
