@@ -11,11 +11,6 @@
 int add(int a, int b)
 {
 	int n;
-
 	n = add(a, b);
-	{
-		_putchar(n + '0');
-		_putchar('\n');
-	}
-	return (0);
+	return (n);
 }
