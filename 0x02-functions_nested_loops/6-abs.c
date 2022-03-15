@@ -9,11 +9,14 @@
 
 int _abs(int c)
 {
-	int r;
-
-	r = _abs(c);
+	if (c >= 0)
 	{
-		printf("%d", r);
+		printf("%d", c);
+	}
+	else
+	{
+		c = (c * -1);
+		printf("%d", c);
 	}
 	_putchar('\n');
 	return (0);
