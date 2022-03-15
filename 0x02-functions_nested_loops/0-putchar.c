@@ -5,7 +5,7 @@
  * Printing with a local function
  * Return: Always 0 (Success)
  */
-int _putchar(int c)
+int _putchar(int c);
 
 int main(void)
 {
