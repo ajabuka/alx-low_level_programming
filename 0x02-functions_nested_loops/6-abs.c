@@ -19,5 +19,4 @@ int _abs(int c)
 		printf("%d", c);
 	}
 	_putchar('\n');
-	return (0);
 }
