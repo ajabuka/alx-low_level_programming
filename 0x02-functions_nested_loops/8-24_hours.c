@@ -19,7 +19,7 @@ for (a = '0'; a <= '2'; a++)
 		{
 			for (d = '0'; d <= '9'; d++)
 			{
-				if (a >= '2' && b >= '3')
+				if (a >= '2' && b >= '4')
 					break;
 				_putchar(a);
 				_putchar(b);
