@@ -13,7 +13,7 @@ int _abs(int c)
 
 	r = _abs(c);
 	{
-		_putchar("%d", r);
+		printf("%d", r);
 	}
 	_putchar('\n');
 	return (0);
