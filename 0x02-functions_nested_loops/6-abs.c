@@ -10,10 +10,10 @@
 int _abs(int c)
 {
 	int r;
-	
+
 	r = _abs(c);
 	{
-		_putchar(r);
+		_putchar("%d", r);
 	}
 	_putchar('\n');
 	return (0);
