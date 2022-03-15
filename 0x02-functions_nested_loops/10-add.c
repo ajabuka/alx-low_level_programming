@@ -17,4 +17,5 @@ int add(int a, int b)
 		_putchar(n);
 		_putchar('\n');
 	}
+	return (0);
 }
