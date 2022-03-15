@@ -1,5 +1,5 @@
 char _putchar()
 {
-	putchar();
+	int putchar;
 	return (0);
 }
