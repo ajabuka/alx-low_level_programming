@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * times_table - Prints multiplication table to 9
+ * print_times_table - Prints multiplication table to n
  *
  * Return: Always 0 (Success)
  */
 
-void times_table(void)
+void print_times_table(void)
 {
 
 int a, b, e, n = 0;
