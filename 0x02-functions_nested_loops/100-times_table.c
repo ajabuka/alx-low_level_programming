@@ -2,14 +2,16 @@
 
 /**
  * print_times_table - Prints multiplication table to n
- *
+ * @n: Stardard input
  * Return: Always 0 (Success)
  */
 
-void print_times_table(void)
+void print_times_table(int n)
 {
 
-int a, b, e, n = 0;
+int a, b, e;
+
+n = 0;
 
 if (n >= 0 && n <= 15)
 {
