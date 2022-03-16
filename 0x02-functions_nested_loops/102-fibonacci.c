@@ -13,13 +13,13 @@ int main(void)
 	long int t2 = 2;
 	long int nt;
 
-	printf("%d, %d, ", t1, t2);
+	printf("%ld, %ld, ", t1, t2);
 	for (Fn = 3; Fn <= 50; ++Fn)
 	{
 		nt = t1 + t2;
 		t1 = t2;
 		t2 = nt;
-		printf("%d, ", nt);
+		printf("%ld, ", nt);
 	}
 	printf("\b");
 	printf("\n");
