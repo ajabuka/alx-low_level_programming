@@ -21,8 +21,10 @@ if (n >= 0 && n <= 15)
 			if (e <= 9)
 			{
 				if (b >= 1)
-				_putchar(' ');
-				_putchar(' ');
+				{
+					_putchar(' ');
+					_putchar(' ');
+				}
 				_putchar(e + '0');
 			}
 			else if (e <= 99)
