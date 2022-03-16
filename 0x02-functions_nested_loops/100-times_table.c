@@ -9,7 +9,7 @@
 void times_table(void)
 {
 
-int a, b, e, n;
+int a, b, e, n = 0;
 
 if (n >= 0 && n <= 15)
 {
