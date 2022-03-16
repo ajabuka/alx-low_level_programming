@@ -20,7 +20,7 @@ int main(void)
 		t2 = nt;
 		if ((nt % 2) == 0)
 		{
-			sum = sum + nt;
+			sum = sum + t1;
 		}
 	}
 	printf("%ld", sum);
