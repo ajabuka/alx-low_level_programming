@@ -16,14 +16,14 @@ for (a = 48; a <= 57; a++)
 {
 	if (a == 48)
 	{
-		(e = a * '0');
+		(e = a * 48);
 		_putchar(e);
 		_putchar(',');
 		_putchar(' ');
 	}
-	else if (a == 50)
+	else if (a == 49)
 	{
-		(e = a * '1');
+		(e = a * 49);
 		_putchar(e);
 		_putchar(',');
 		_putchar(' ');
