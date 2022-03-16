@@ -16,7 +16,7 @@ for (a = 0; a <= 9; a++)
 	for (b = 0; b <= 9; b++)
 	{
 		(e = a * b);
-		if (e <= '9')
+		if (e <= 9)
 		{
 			_putchar(' ');
 			_putchar(e + '0');
