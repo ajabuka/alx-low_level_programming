@@ -13,9 +13,9 @@ int a, b, e;
 
 if (n >= 0 && n <= 15)
 {
-	for (a = 0; a <= n; n++)
+	for (a = 0; a <= n; a++)
 	{
-		for (b = 0; b <= n; n++)
+		for (b = 0; b <= n; b++)
 		{
 			(e = a * b);
 			if (e <= 9)
