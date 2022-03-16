@@ -18,12 +18,10 @@ int main(void)
 		nt = t1 + t2;
 		t1 = t2;
 		t2 = nt;
+		if (nt % 2 == 0)
 		{
-			if (nt % 2 == 0)
-			{
-				sum = sum + nt;
-				printf("%ld", sum);
-			}
+			sum = sum + nt;
+			printf("%ld", sum);
 		}
 	}
 	printf("\n");
