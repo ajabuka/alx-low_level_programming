@@ -13,12 +13,12 @@ int a, b, e;
 
 for (a = 0; a <= 9; a++)
 {
-	_putchar('0');
-	for (b = 1; b <= 9; b++)
+	for (b = 0; b <= 9; b++)
 	{
 		(e = a * b);
 		if (e <= 9)
 		{
+			if (b >= 1)
 			_putchar(' ');
 			_putchar(e + '0');
 		}
