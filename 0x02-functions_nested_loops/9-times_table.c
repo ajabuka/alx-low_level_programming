@@ -9,19 +9,19 @@
 void times_table(void)
 {
 
-int a = '0';
+int a = 48;
 int e;
 
-for (a = '0'; a <= '9'; a++)
+for (a = 48; a <= 57; a++)
 {
-	if (a == '0')
+	if (a == 48)
 	{
 		(e = a * '0');
 		_putchar(e);
 		_putchar(',');
 		_putchar(' ');
 	}
-	else if (a == '1')
+	else if (a == 50)
 	{
 		(e = a * '1');
 		_putchar(e);
