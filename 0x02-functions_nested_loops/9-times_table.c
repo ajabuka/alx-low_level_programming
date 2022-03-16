@@ -11,22 +11,23 @@ void times_table(void)
 
 int a, b, e;
 
-for (a = 48; a <= 57; a++)
+for (a = '0'; a <= '9'; a++)
 {
-	for (b = 48; b <= 57; b++)
+	for (b = '0'; b <= '0'; b++)
 	{
 		(e = a * b);
-		_putchar(',');
-		_putchar(' ');
-		if (e <= 57)
+		if (e <= '9')
 		{
-			_putchar(e + 48);
+			_putchar(' ');
+			_putchar(e + '0');
 		}
 		else
 		{
-			_putchar((e / 10) + 48);
-			_putchar((e % 10) + 48);
+			_putchar((e / 10) + '0');
+			_putchar((e % 10) + '0');
 		}
+		_putchar(',');
+		_putchar(' ');
 	}
 	_putchar('\n');
 
