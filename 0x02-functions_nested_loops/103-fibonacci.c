@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	int Fn;
 	long int t1 = 1;
 	long int t2 = 2;
 	long int nt = 0;
