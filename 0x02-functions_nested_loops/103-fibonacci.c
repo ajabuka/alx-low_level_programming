@@ -14,16 +14,18 @@ int main(void)
 	long int nt;
 
 	printf("%ld", t2);
-	for (Fn = 3; ++Fn)
+	for (Fn = 3; ++Fn;)
 	{
 		nt = t1 + t2;
 		t1 = t2;
 		t2 = nt;
-	}
-	if (nt <= 4000000);
-	{
-		nt != (nt % 10 == 1);
-		printf(", %ld", nt);
+		{
+			if (nt <= 4000000)
+			{
+				(nt != (nt % 10 == 1));
+				printf(", %ld", nt);
+			}
+		}
 	}
 	printf("\n");
 	return (0);
