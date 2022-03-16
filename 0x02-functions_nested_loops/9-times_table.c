@@ -14,15 +14,19 @@ int e;
 
 for (a = '0'; a <= '9'; a++)
 {
-	if (a == 0)
+	if (a == '0')
 	{
 		(e = a * '0');
 		_putchar(e);
+		_putchar(',');
+		_putchar(' ');
 	}
-	else if (a == 1)
+	else if (a == '1')
 	{
 		(e = a * '1');
 		_putchar(e);
+		_putchar(',');
+		_putchar(' ');
 	}
 	_putchar('\n');
 
