@@ -12,18 +12,20 @@ int main(void)
 	long int t1 = 1;
 	long int t2 = 2;
 	long int nt;
+	long int sum = 0;
 
-	printf("%ld", t2);
 	for (Fn = 3; ++Fn;)
 	{
 		nt = t1 + t2;
 		t1 = t2;
 		t2 = nt;
 		{
-			if (nt <= 4000000)
+			if (nt % 2 == 0)
 			{
-				if (nt % 2 == 0)
-				printf(", %ld", nt);
+				sum = sum + nt;
+				if (nt >= 4000000)
+					break;
+				printf("%ld", sum);
 			}
 		}
 	}
