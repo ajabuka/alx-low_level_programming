@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long int t1 = 1;
-	long int t2 = 2;
+	long int t1 = 0;
+	long int t2 = 1;
 	long int nt = 0;
 	long int sum = 0;
 
