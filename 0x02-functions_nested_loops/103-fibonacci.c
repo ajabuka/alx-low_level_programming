@@ -22,9 +22,9 @@ int main(void)
 		{
 			if (nt % 2 == 0)
 			{
-				sum = sum + nt;
 				if (nt >= 4000000)
 					break;
+				sum = sum + nt;
 				printf("%ld", sum);
 			}
 		}
