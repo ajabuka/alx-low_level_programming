@@ -17,11 +17,15 @@ if (n < 98)
 		printf("%d, ", n);
 	}
 }
-else
+else if (n > 98)
 {
 	for (; n > 98; n--)
 	{
 		printf("%d, ", n);
 	}
+}
+else
+{
+	printf("%d, ", n);
 }
 }
