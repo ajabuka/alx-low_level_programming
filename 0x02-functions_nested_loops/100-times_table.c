@@ -42,7 +42,7 @@ if (n >= 0 && n <= 15)
 				_putchar(' ');
 			}
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
 }
