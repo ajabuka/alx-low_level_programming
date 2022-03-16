@@ -26,9 +26,11 @@ for (a = 0; a <= 9; a++)
 			_putchar((e / 10) + '0');
 			_putchar((e % 10) + '0');
 		}
-		if (e <= 9)
-		_putchar(',');
-		_putchar(' ');
+		if (b <= 9)
+		{
+			_putchar(',');
+			_putchar(' ');
+		}
 	}
 	_putchar('\n');
 
