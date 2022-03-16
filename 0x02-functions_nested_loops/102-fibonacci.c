@@ -6,12 +6,12 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	int Fn;
-	int t1 = 1;
-	int t2 = 2;
-	int nt;
+	long int t1 = 1;
+	long int t2 = 2;
+	long int nt;
 
 	printf("%d, %d, ", t1, t2);
 	for (Fn = 3; Fn <= 50; ++Fn)
@@ -21,6 +21,7 @@ int main (void)
 		t2 = nt;
 		printf("%d, ", nt);
 	}
+	printf("\b");
 	printf("\n");
 	return (0);
 }
