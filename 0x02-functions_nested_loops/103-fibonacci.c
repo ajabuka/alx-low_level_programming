@@ -20,9 +20,9 @@ int main(void)
 		t1 = t2;
 		t2 = nt;
 		{
-			if (nt <= 4000000)
+			for (nt <= 4000000)
 			{
-				(nt != (nt % 10 == 1));
+				if (nt % 2 == 0);
 				printf(", %ld", nt);
 			}
 		}
