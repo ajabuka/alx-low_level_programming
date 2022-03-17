@@ -8,21 +8,18 @@
 
 void more_numbers(void)
 {
-	int a, c, d = '0';
-	int b = '1';
+	int a = 0;
+	int d = '0';
 
 	for (d = '0'; d <= '9'; d++)
 	{
 
-		for (a = '0'; a <= '9'; a++)
+		for (a = 0; a <= 14; a++)
 		{
-			_putchar(a);
+			if (a >= 10)
+				_putchar((a / 10) + '0');
+			_putchar((a % 10) + '0');
 		}
-		for (c = '0'; c <= '4'; c++)
-		{
-			_putchar(b);
-			_putchar(c);
-		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
