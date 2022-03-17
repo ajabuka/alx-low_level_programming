@@ -2,21 +2,22 @@
 
 /**
  * print_square - prints a square
- *
+ * @size: length of square in integer
  * Return: 0
  */
 
 void print_square(int size)
 {
-	int size = '0';
-	int d = '0';
+	int d = 0;
+	int s = 0;
 
-	for (d = '0'; d <= '9'; d++)
+	for (d = 0; d < size; d++)
 	{
 
-		for (size = '0'; size <= '9'; size++)
+		for (s = 0; s < size; s++)
 		{
 			_putchar('#');
+			_putchar('\n');
 		}
 		_putchar('\n');
 	}
