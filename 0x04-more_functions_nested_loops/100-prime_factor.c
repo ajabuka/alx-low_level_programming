@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 
-int main()
+int main(void)
 {
 	long int a;
 	long int n = 612852475143;
