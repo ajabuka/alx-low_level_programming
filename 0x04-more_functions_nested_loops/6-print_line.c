@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints line based on the integer value inputed
- * @n - Standard input integer
+ * @n: Standard input integer
  * Return: 0
  */
 
