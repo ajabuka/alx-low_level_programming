@@ -11,19 +11,14 @@ void rev_string(char *s)
 	int n = 0, i;
 	char *end_ptr, ch;
 
-	*s = s;
-	end_ptr = s;
-
-	for (i = 0; i < s[n] - 1; i++)
-		end_ptr++;
-
-	for (i = 0; i < s[n] / 2; i++)
+	for (n = 0; n < s[n] - 1; n++)
 	{
-		ch = *end_ptr;
-		*end_ptr = *s;
-		*s = ch;
+		if (s[n] == '\0')
+			break;
+	}
 
-		*s++;
-		*end_ptr--;
+	for (i = n; i >= 0; i--)
+	{
+		*s = *(s + i)
 	}
 }
