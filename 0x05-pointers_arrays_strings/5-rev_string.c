@@ -16,7 +16,7 @@ void rev_string(char *s)
 			break;
 	}
 
-	for (i = n; i >= 0; i--)
+	for (i = s[n]; i >= 0; i--)
 	{
 		*s = *(s + i);
 	}
