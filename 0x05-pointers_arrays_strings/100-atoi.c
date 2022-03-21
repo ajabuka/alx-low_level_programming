@@ -29,8 +29,8 @@ int _atoi(char *s)
 
 	for (i = n - size; i < n; i++)
 	{
-		posi = posi + ((*(s + i) - '0') * m);
-		m /= 10;
+		posi = posi + ((*(s + i) - '0') * z);
+		z /= 10;
 	}
 	return (posi * negi);
 }
