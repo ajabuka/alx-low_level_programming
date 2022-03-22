@@ -12,7 +12,6 @@ int main(void)
 {
 	int r =0;
 	int i = 0;
-	time_t t;
 
 	srand((unsigned int) time(NULL));
 	while (i < 2772)
