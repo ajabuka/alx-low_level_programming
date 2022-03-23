@@ -3,7 +3,7 @@
 /**
  * cap_string - capitalizes all words of a string
  * @s: Standard input
- * return: Standard output string in s
+ * Return: Standard output string in s
  * sep = separators of words
  * n = number of characters in an array or string
  * i = used to loop through seprators
@@ -12,7 +12,7 @@
 char *cap_string(char *s)
 {
 	int n = 0, i;
-	int sep[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	int sep[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, '(', ')', '{', '}'};
 
 	if (*(s + n) >= 'a' && *(s + n) <= 'z')
 		*(s + n) = *(s + n) - 32;
