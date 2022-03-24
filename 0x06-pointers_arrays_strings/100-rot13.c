@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * rot13 - encode the string using rot13 which rotates the alphabet in 13 places
+ * rot13 - encode the string using rot13
+ * which rotates the alphabet in 13 places
  * @s: Standard input string
  * alpha = The alpabebet listed in UPPERCASE and lowercase
  * rot13 = equivalent of each alphabet characters
