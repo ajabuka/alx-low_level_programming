@@ -16,24 +16,24 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		m = n * -1;
+		a = n * -1;
 	}
 	else
 	{
-		m = n;
+		a = n;
 	}
 	
-	d = m;
+	b = a;
 	n1 = 1;
 
-	while (d > 9)
+	while (b > 9)
 	{
-		d /= 10;
+		b /= 10;
 		n1 *= 10;
 	}
 
 	for (; n1 >= 1; n1 /= 10)
 	{
-		_putchar(((m / n1) % 10) + '0');
+		_putchar(((a / n1) % 10) + '0');
 	}
 }
