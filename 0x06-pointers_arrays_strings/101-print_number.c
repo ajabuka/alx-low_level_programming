@@ -22,7 +22,6 @@ void print_number(int n)
 	{
 		a = n;
 	}
-	
 	b = a;
 	n1 = 1;
 
