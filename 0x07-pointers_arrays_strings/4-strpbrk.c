@@ -6,10 +6,11 @@
  * @accept: accepted bytes
  * i = used to iterate through s
  * j = used to loop through accept
- * Return: number of the accepted bytes
+ * Return: a pointer to the byte in s that match
+ * one in the accepted bytes, NULL if byte is not found
  */
 
-char _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
