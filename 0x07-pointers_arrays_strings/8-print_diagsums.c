@@ -4,7 +4,7 @@
 /**
  * print_diagsums - sums the diagonals of a square matrix of integers
  * @a: Pointer to the standard input integers
- * size: size of the matrix
+ * @size: size of the matrix
  * Return: Nothing
  */
 
