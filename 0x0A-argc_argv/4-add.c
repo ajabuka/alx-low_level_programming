@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * main - multiplies two(2) numbers from arguments receives
+ * main - multiplies two-2 numbers from arguments receives
  * @argc: number of command line arguments
  * @argv: array of the program command line arguments
  * Return: Always 0.
