@@ -50,7 +50,7 @@ char **strtow(char *str)
 	i = 0;
 	while (str[i])
 	{
-		if (str[i] != ' ' && (i == 0 || str[i - 1] = ' '))
+		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 		{
 			for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 				;
@@ -59,7 +59,7 @@ char **strtow(char *str)
 			j--;
 			if (word[wc] == NULL)
 			{
-				for (k = 0, k < wc; k++)
+				for (k = 0; k < wc; k++)
 					free(word[k]);
 				free(word[n - 1]);
 				free(word);
